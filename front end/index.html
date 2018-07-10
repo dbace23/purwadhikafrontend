@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Purwadhika Frontend</title>
+    <style>
+    header,div,footer{
+        border:1px solid #000000
+    }
+    header{
+        text-align: center;
+    }
+    header, #body{
+        margin-bottom:15px;
+    }
+
+    header, footer{
+        padding: 25px;
+    }
+    .product{
+        text-align:center; 
+    }
+    .product .plan {
+        padding:25px;
+        text-align: center;
+    }
+    .product .item,
+    .plan .card,
+    .promosi .kecil{
+        display: inline-block;
+        padding: 50px 25px;
+    }
+    .plan {
+        text-align: center;
+    }
+    .plan .card{
+        width: 20%;
+    }
+    .card ul {
+        padding-left:20px;
+        text-align: left;
+
+    }
+    </style>
+</head>
+<body>
+    <header>
+        This is header
+    </header>
+    <div id='body'>
+        <!--Product Area-->
+        <div class='product'>
+                <h1>This is our product</h1>
+            <div class='item first'>first product</div>
+            <div class='item second'>second product</div>
+        </div>
+        <!--End of Product Area-->
+
+        <!--Plan Area-->
+        <div class='plan'>
+                <h1>This is our Plan</h1>
+          <div class="card">
+            <ul>
+                <li>opsi 1</li>
+                <li>opsi 2</li>
+                <li>opsi 3</li>
+            </ul>
+            <div class="harga">Rp15.000</div>
+          </div>
+          <div class="card">
+                <ul>
+                    <li>opsi 1</li>
+                    <li>opsi 2</li>
+                    <li>opsi 3</li>
+                </ul>
+                <div>Rp15.000</div>
+              </div>
+              <div class="card">
+                    <ul>
+                        <li>opsi 1</li>
+                        <li>opsi 2</li>
+                        <li>opsi 3</li>
+                    </ul>
+                    <div>Rp15.000</div>
+                  </div>
+
+        </div>
+        <!--End of Plan Area-->
+
+        <!--Promotion Area-->
+        <div>
+            <div class='promosi'>
+                <h1>This is our promosi</h1>
+                <div class='kecil'>
+                    first promo
+                </div>
+                <div class='kecil'>
+                       second promo
+                </div>
+                <div class='kecil'>
+                    third promo
+                </div>
+                <div class='kecil'>
+                    fourth promo
+                </div>
+        </div>
+        <!--End of promotion Area-->
+    </div>
+    <footer>
+        This is footer area
+    </footer>
+</body>
+</html>
